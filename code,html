@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe | Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to content</a>
+
+<header>
+    <nav aria-label="Main navigation">
+        <div class="container">
+            <h1 class="logo">John Doe</h1>
+
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main id="main-content">
+
+    <section class="hero">
+        <div class="container">
+            <h2>Front-End Developer & UI Designer</h2>
+            <p>
+                Building accessible, performant, and user-focused web experiences.
+            </p>
+
+            <a href="projects.html" class="btn">
+                View Projects
+            </a>
+        </div>
+    </section>
+
+    <section aria-labelledby="featured-projects">
+        <div class="container">
+            <h2 id="featured-projects">Featured Projects</h2>
+
+            <div class="grid">
+
+                <article class="card">
+                    <h3>Project One</h3>
+                    <p>
+                        Responsive web application built with HTML, CSS, and JavaScript.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Project Two</h3>
+                    <p>
+                        Accessibility-first dashboard focused on usability.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 John Doe. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
